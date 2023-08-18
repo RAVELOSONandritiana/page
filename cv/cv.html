@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body{
+            background: rgb(160, 154, 154);
+            background-attachment: fixed;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .principal{
+            height: 650px;
+            width: 99vw;
+            background:linear-gradient(to bottom right,purple 85%,red);
+            overflow: hidden;
+        }
+        .cv{
+            font-size: 50px;
+            position: relative;
+            left: 40px;
+            font-style: italic;
+            font-weight: bold;
+            text-shadow: 5px 2px 2px black;
+            color: red;
+            animation-name: misa;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes misa {
+            0%{
+                left:40px;
+            }
+            25%{
+                left:900px;
+            }
+            50%{
+                left:900px;
+            }
+            75%{
+                left: 40px;
+            }
+        }
+        .a_propos{
+            background: grey;
+            position: relative;
+            left: 10px;
+            height: 35vw;
+            width: 95vw;
+            z-index: 0;
+            border-radius: 10px;
+            box-shadow: 5px 5px 1px black;
+            white-space: pre-wrap;
+            line-height: 13px;
+        }
+        .perso{
+            background: green;
+            z-index: 1;
+            position: relative;
+            border-radius: 10px;
+            left: 130vh;
+            top: 5vh;
+            height: 10vh;
+            width: 60vh;
+            box-shadow: 5px 5px 1px black;
+            white-space: pre-wrap;
+        }
+        #lien{
+            color: red;
+            font-size: 30px;
+            position: relative;
+            top: 1vw;
+            left: 12vw;
+        }
+        .musique{
+            position: relative;
+            top: -2vw;
+        }
+        .me{
+            position: relative;
+            font-size: 1.5vw;
+            top: -45vw;
+            left: 1vw;     
+        }
+        td{
+            font-style: italic;
+            line-height: 2.5vw;
+        }
+        .im{
+            position: relative;
+            top: -78vw;
+            left: 80vw;
+            size: 1vw;
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <div class = "principal">
+            <h class="cv">CV</h>
+                <div class="a_propos"></div>
+                <div class="perso"><div id="lien"><h><a href="main.html">page</a></h></div></div>
+                <div class="musique"><audio src="instru.mp3" controls></div>
+                <div class="musique"><audio src="Kygo feat.  Dagny - Lonely Together(MP3_160K).mp3" controls></div>
+    </div>
+    <div class="me">
+        <table>
+        <tr>
+            <td>Nom</td><td>:RAVELOSON</td>
+        </tr>
+        <tr>
+            <td>Prenom</td><td>:Andritiana Michel</td>
+        </tr>
+        <tr>
+            <td>Date et lieu de naissance</td><td>:11 Septembre 2005 a Alasora</td>
+        </tr>
+        <tr>
+            <td>Addresse</Address></td><td>:Lot C125 Ambatomalza Alasora</td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>:Email(hgbmichel@gmail.com) / Tel:(0328754036)</td>
+        </tr>
+        <tr>
+            <td>Sexe</td><td>:Masculin</td>
+        </tr>
+        <tr>
+            <td>Diplomes</td><td>:Bacc / Bepc / Cepe</td>
+        </tr>
+        <tr>
+            <td>Competences</td><td>:Travail en equipe et capable de bine travailler sous pression</td>
+        </tr>
+        <tr>
+            <td>Langues</td><td>:Malgache / Francais</td>
+        </tr>
+        <tr>
+            <td>Langage</td><td>:C (base)/ Perl (debutant)/ Bash(debutant) / Python (base)/ HTML (debutant)/</br>CSS (debutant)/ Pascal(debutant)</td>
+        </tr>
+        <tr>
+            <td>Loisirs</td><td>:Beatmaking / regarder des animes</td>
+        </tr>
+        </table>
+    </div>
+    <div>
+        <img src="images2.jpeg" width="120vw" height="120vw" class="im"/>
+    </div>
+</body>
+</html>
